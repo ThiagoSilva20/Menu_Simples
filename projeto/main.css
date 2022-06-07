@@ -1,16 +1,18 @@
 body {
-    margin: 0px;
+    margin: 90px;
     padding: 0px;
-    background-color: #E5E5E5;
+    background: linear-gradient(to left, rgb(45,38,74), rgb(32,32,36));
 }
 
 #menu {
     padding: 30px;
     background-color: rgba(20,33,61,0.7);
-    width: 1100px;
+    width: 80%;
     height: 500px;
     border-radius: 20px;
     margin: auto;
+    top: 50%;
+    right: 0;
 }
 
 .font {
@@ -26,24 +28,74 @@ body {
 
 #name {
     width: 300px;
-    height: 10px;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 #button {
-    width: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    height: 52px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 36px;
+    color: #FFFFFF;
+    border-color: transparent;
 }
 
 #canto_esq {
-    position: absolute;
+    float: left;
 }
 
 #canto_dir {
-    position: absolute;
     right: 98px;
     width: 500px;
     height: 500px;
     border-radius: 20px;
     border: 1px solid #ffffff;
-    background-color: blue;
+    background-color: transparent;
+    float: right;
+}
+
+.container button {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: 3px solid rgb(130, 87, 230); 
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.upload-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: 2px dashed rgb(130, 87, 230) !important;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    padding: 19px 40px;
+}
+.upload-btn input[type=file] {
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+
+.upload_img {
+    display: inline-block;
+    border: 3px solid rgb(130, 87, 230);
+    width: 200px;
+    height: 200px;
+    margin-left: 9px;
 }
