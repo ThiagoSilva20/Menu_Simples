@@ -1,5 +1,5 @@
 body {
-    margin: 90px;
+    margin: 30px;
     padding: 0px;
     background: linear-gradient(to left, rgb(45,38,74), rgb(32,32,36));
 }
@@ -27,8 +27,11 @@ body {
 }
 
 #name {
+    text-decoration: none;
     width: 300px;
-    border-radius: 1px;
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 3px;
 }
 
 #button {
@@ -57,15 +60,16 @@ body {
 }
 
 .container button {
-    cursor: pointer;
     outline: none;
     text-decoration: none;
-    font-size: 20px;
-    padding: 5px 15px;
+    width: 225px;
+    font-size: 15px;
+    padding: 3px 5px;
     border: 3px solid rgb(130, 87, 230); 
     background: transparent;
     border-radius: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .upload-btn {
@@ -86,13 +90,14 @@ body {
     font-size: 10px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 18px;
     opacity: 0;
 }
 
 
 
 .upload_img {
+
     display: inline-block;
     border: 3px solid rgb(130, 87, 230);
     width: 200px;
